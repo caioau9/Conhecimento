@@ -1,46 +1,68 @@
-# Módulo 1 – Página 4: Como o Git gerencia versões (De que forma ele salva os arquivos?)
+# Como o Git Gerencia Versões
 
-## Visão Geral
+## Introdução
 
-Esta página explica como o Git armazena e gerencia diferentes versões dos arquivos de um projeto. Entender como o Git organiza os dados é essencial para aproveitar todo o poder dessa ferramenta.
+O Git é um sistema de controle de versão distribuído que gerencia mudanças nos arquivos de um projeto. Diferente de outros sistemas de controle de versão centralizados, o Git armazena cada versão como um conjunto de snapshots, garantindo eficiência e integridade dos dados.
 
----
+## Conceitos Fundamentais
+O Git utiliza uma estrutura baseada em três componentes principais:
 
-## Como o Git Guarda os Arquivos
+### 1. **Blobs (Binary Large Objects)**
+Blobs representam o conteúdo dos arquivos armazenados no repositório. Cada versão de um arquivo recebe um identificador único baseado no seu conteúdo, utilizando a criptografia SHA-1.
 
-O Git funciona como um grande álbum de fotos do seu projeto. Cada vez que você faz uma alteração e a salva, o Git tira uma foto do estado atual dos arquivos e os organiza para que você possa acessá-los depois.
+### 2. **Trees (Árvores)**
+As trees organizam os blobs em uma estrutura hierárquica, semelhante a diretórios e subdiretórios. Cada tree contém referências a blobs e outras trees, permitindo que o Git reconstrua a estrutura do projeto em qualquer ponto do tempo.
 
-**Componentes importantes do Git para gerenciar versões:**
+### 3. **Commits**
+Os commits representam um estado do repositório em determinado momento. Cada commit contém:
+- Uma referência à tree correspondente àquele momento.
+- Um ponteiro para o commit anterior (ou commits, no caso de merges).
+- Informações do autor e data do commit.
+- Uma mensagem descritiva.
 
-- **Versão (Commit):** Cada foto salva do seu projeto. Você pode voltar a qualquer uma delas sempre que precisar.
-- **Pastas Organizadoras (Tree):** O Git guarda os arquivos dentro de uma estrutura de pastas, para manter tudo organizado.
-- **Arquivo Armazenado (Blob):** O conteúdo de cada arquivo salvo, sem informações extras.
-- **Última Versão (HEAD):** O Git sempre aponta para a última versão salva do projeto, facilitando seu trabalho.
+## Estrutura Interna do Git
+Internamente, o Git armazena os dados no diretório `.git/` do repositório, utilizando os seguintes componentes:
 
----
+- **HEAD**: Aponta para o commit atual.
+- **Refs**: Contêm referências para branches, tags e outros objetos.
+- **Objects**: Diretório onde blobs, trees e commits são armazenados.
 
-## Como o Git Lembra das Versões Antigas?
+## Como o Git Rastreia Alterações
+Quando um desenvolvedor edita um arquivo e executa comandos do Git, o fluxo ocorre da seguinte forma:
 
-- Cada vez que você salva uma nova versão do projeto, o Git mantém um histórico das mudanças.
-- Ao invés de salvar só as diferenças, ele guarda uma cópia completa do projeto.
-- Isso permite que você volte para qualquer versão anterior com segurança.
+1. **Edição de Arquivos**: O usuário modifica os arquivos no diretório de trabalho.
+2. **Staging (Área de Preparação)**: O comando `git add` adiciona as alterações à área de staging.
+3. **Commit**: O comando `git commit` salva as alterações de forma permanente no histórico do repositório.
 
-**Exemplo:** Imagine que você esteja escrevendo um livro e quer salvar rascunhos diferentes sem perder os antigos. O Git faz isso automaticamente!
+Cada commit cria um snapshot do estado dos arquivos naquele momento, permitindo que o histórico do projeto seja reconstruído ou revertido quando necessário.
 
----
+## Exemplo Prático
+Suponha que criamos um arquivo `arquivo.txt`, adicionamos conteúdo e o commitamos:
 
-## Como o Git Garante que Nada se Perca?
+```sh
+$ echo "Primeira versão" > arquivo.txt
+$ git add arquivo.txt
+$ git commit -m "Adiciona primeira versão do arquivo"
+```
 
-- O Git usa uma espécie de “impressão digital” para identificar cada versão do projeto.
-- Sempre que um arquivo é salvo, ele recebe um código único.
-- Se o conteúdo mudar, o código muda também, garantindo que tudo esteja seguro e organizado.
+Agora, ao inspecionar o histórico de commits, podemos ver a referência ao commit criado:
 
----
+```sh
+$ git log --oneline
+```
+
+Saída esperada:
+```
+ab12c34 Adiciona primeira versão do arquivo
+```
+Isso mostra que o Git armazenou o commit e pode recuperar essa versão quando necessário.
 
 ## Resumo
+- O Git armazena versões como **snapshots**, não como diferenças entre arquivos.
+- Utiliza **blobs, trees e commits** para organizar os dados.
+- O diretório `.git/` contém toda a estrutura necessária para rastrear o histórico.
+- O processo de versionamento envolve **edição, staging e commit**.
 
-- O Git funciona como um álbum de fotos do seu projeto, onde cada versão salva pode ser acessada depois.
-- Ele mantém um histórico completo, garantindo que nada seja perdido.
-- Cada arquivo salvo recebe um código único, tornando o processo seguro e confiável.
+---
 
-No próximo tópico, vamos aprender como **instalar o Git no seu computador**!
+No próximo tópico, veremos como instalar o Git em diferentes sistemas operacionais.

@@ -1,77 +1,85 @@
-# Módulo 1 – Página 5: Instalação do Git (Windows, Linux, macOS)
+# Instalação do Git
 
-## Visão Geral
-Agora que entendemos como o Git funciona, vamos instalá-lo no seu computador para começar a usá-lo.
+## Introdução
 
----
+Antes de começar a usar o Git, é necessário instalá-lo no seu sistema operacional. O Git é compatível com Windows, Linux e macOS, e cada sistema possui um método específico de instalação.
 
-## 1. Instalando o Git no Windows
+## Instalando o Git no Windows
 
-1. Acesse o site oficial: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-2. Baixe o instalador para Windows.
-3. Execute o arquivo baixado e siga as instruções.
-4. Durante a instalação, mantenha as opções padrão para evitar problemas.
-5. Para verificar se a instalação foi bem-sucedida, abra o **Prompt de Comando** e digite:
+A forma mais comum de instalar o Git no Windows é utilizando o instalador oficial.
 
-   ```sh
-   git --version
-   ```
-
-   Se aparecer um número de versão, significa que o Git foi instalado corretamente!
-
----
-
-## 2. Instalando o Git no Linux
-
-No Linux, a instalação varia de acordo com a distribuição. Use o comando correspondente ao seu sistema:
-
-- **Ubuntu/Debian:**
-  ```sh
-  sudo apt update && sudo apt install git
-  ```
-- **Fedora:**
-  ```sh
-  sudo dnf install git
-  ```
-- **Arch Linux:**
-  ```sh
-  sudo pacman -S git
-  ```
-
-Para verificar a instalação, digite:
+### Passo a passo:
+1. Acesse o site oficial do Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+2. Baixe o instalador compatível com sua versão do Windows.
+3. Execute o instalador e siga as instruções, mantendo as opções padrão recomendadas.
+4. Após a instalação, abra o `Git Bash` e verifique se a instalação foi bem-sucedida com o comando:
 
 ```sh
-git --version
+$ git --version
 ```
 
-Se aparecer um número de versão, o Git foi instalado corretamente.
+Se o Git foi instalado corretamente, será exibida a versão instalada.
 
----
+## Instalando o Git no Linux
 
-## 3. Instalando o Git no macOS
+A maioria das distribuições Linux já possui o Git disponível nos repositórios oficiais.
 
-Se você usa macOS, a forma mais fácil de instalar o Git é através do Homebrew:
-
+### Para Ubuntu/Debian:
 ```sh
-brew install git
+$ sudo apt update
+$ sudo apt install git
 ```
 
-Caso não tenha o Homebrew instalado, primeiro instale-o seguindo as instruções em [https://brew.sh](https://brew.sh), e depois instale o Git com o comando acima.
-
-Para confirmar a instalação, use:
-
+### Para Fedora:
 ```sh
-git --version
+$ sudo dnf install git
 ```
 
----
+### Para Arch Linux:
+```sh
+$ sudo pacman -S git
+```
+
+Após a instalação, verifique a versão com:
+```sh
+$ git --version
+```
+
+## Instalando o Git no macOS
+
+No macOS, o Git pode ser instalado de várias formas, sendo as mais comuns:
+
+### Usando Homebrew (recomendado):
+```sh
+$ brew install git
+```
+
+### Usando o Xcode:
+Se você tiver o Xcode instalado, basta executar o comando:
+```sh
+$ git --version
+```
+Se o Git não estiver instalado, o macOS oferecerá a opção de instalar os Developer Tools.
+
+## Configuração Inicial
+Após instalar o Git, configure seu nome e e-mail para associar seus commits corretamente:
+```sh
+$ git config --global user.name "Seu Nome"
+$ git config --global user.email "seu.email@example.com"
+```
+
+Para verificar as configurações, use:
+```sh
+$ git config --list
+```
 
 ## Resumo
+- O Git pode ser instalado no **Windows, Linux e macOS**.
+- No **Windows**, utilize o instalador oficial.
+- No **Linux**, instale via gerenciador de pacotes.
+- No **macOS**, utilize o **Homebrew** ou o Xcode.
+- Após a instalação, configure seu nome e e-mail para associar corretamente seus commits.
 
-- O Git pode ser instalado no **Windows**, **Linux** e **macOS**.
-- No **Windows**, basta baixar e executar o instalador.
-- No **Linux**, o Git pode ser instalado pelo gerenciador de pacotes da sua distribuição.
-- No **macOS**, o Git pode ser instalado com o Homebrew.
-- Após a instalação, use `git --version` para verificar se tudo está funcionando.
+---
 
-Agora que o Git está instalado, vamos configurar as primeiras opções para usá-lo no próximo tópico!
+No próximo tópico, veremos as **primeiras configurações do Git**, como definir nome, e-mail e editor padrão.
