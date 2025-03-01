@@ -1,2 +1,3 @@
 # O-Conhecimento
-Uma Wiki em construção para aprender e revisar conhecimentos importantes.
+Este repositório é uma Wiki em construção, para aprender e revisar conhecimentos importantes.
+Ela é mantida por @caioau9
