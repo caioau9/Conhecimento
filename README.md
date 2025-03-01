@@ -18,11 +18,11 @@ Clique nos links para navegar na Wiki
 ## Git e Github
 Clique nos links para navegar na Wiki
 - ### Fundamentos 
-  - [O que é Git? Como funciona e por que usar?](blob/main/software/git-github/fundamentos/1-o-que-e-git.md)
-  - [O que é GitHub? Diferença entre Git e GitHub](blob/main/software/git-github/fundamentos/2-o-que-e-github.md#o-que-%C3%A9-github-diferen%C3%A7a-entre-git-e-github)
-  - [História e Criação do Git](blob/main/software/git-github/fundamentos/3-historia-do-git.md#hist%C3%B3ria-e-cria%C3%A7%C3%A3o-do-git)
-  - [Como o Git Gerencia Versões](blob/main/software/git-github/fundamentos/4-gerenciamento-de-versoes.md)
-  - [Instalação do Git](blob/main/software/git-github/fundamentos/5-instalando-o-git.md)
+  - [O que é Git? Como funciona e por que usar?](software/git-github/fundamentos/1-o-que-e-git.md)
+  - [O que é GitHub? Diferença entre Git e GitHub](software/git-github/fundamentos/2-o-que-e-github.md#o-que-%C3%A9-github-diferen%C3%A7a-entre-git-e-github)
+  - [História e Criação do Git](software/git-github/fundamentos/3-historia-do-git.md#hist%C3%B3ria-e-cria%C3%A7%C3%A3o-do-git)
+  - [Como o Git Gerencia Versões](software/git-github/fundamentos/4-gerenciamento-de-versoes.md)
+  - [Instalação do Git](software/git-github/fundamentos/5-instalando-o-git.md)
 
 ---
 
