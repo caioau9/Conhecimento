@@ -43,8 +43,8 @@ Muitos projetos de código aberto são hospedados no GitHub, permitindo aprendiz
 ## Exemplo: Criando um Repositório no GitHub
 
 1. Acesse [GitHub](https://github.com/) e crie uma conta.
-2. No painel principal, clique em **New Repository**.
-3. Escolha um nome para o repositório, defina a visibilidade (público ou privado) e clique em **Create Repository**.
+2. No painel principal, clique em **Novo Repositório**.
+3. Escolha um nome para o repositório, defina a visibilidade (público ou privado) e clique em **Criar Repositório**.
 4. Para conectar um repositório local ao GitHub, use os comandos:
 
 ```sh
