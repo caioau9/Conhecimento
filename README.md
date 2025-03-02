@@ -19,7 +19,7 @@ Clique nos links para navegar na Wiki
 Clique nos links para navegar na Wiki
 - ### Fundamentos 
   - [O que é Git? Como funciona e por que usar?](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.1-o-que-e-git.md)
-  - [O que é GitHub? Diferença entre Git e GitHub]()
+  - [O que é GitHub? Diferença entre Git e GitHub](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.2-o-que-e-github.md)
   - [História e Criação do Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.3-historia-do-git.md)
   - [Como o Git Gerencia Versões](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamehttps://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.2-o-que-e-github.mdntos/1.4-gerenciamento-de-versoes.md)
   - [Instalação do Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.5-instalando-o-git.md)
