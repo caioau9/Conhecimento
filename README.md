@@ -18,12 +18,21 @@ Clique nos links para navegar na Wiki
 ## Git e Github
 Clique nos links para navegar na Wiki
 - ### Fundamentos 
-  - [O que é Git? Como funciona e por que usar?](software/git-github/fundamentos/1-o-que-e-git.md)
-  - [O que é GitHub? Diferença entre Git e GitHub](software/git-github/fundamentos/2-o-que-e-github.md#o-que-%C3%A9-github-diferen%C3%A7a-entre-git-e-github)
-  - [História e Criação do Git](software/git-github/fundamentos/3-historia-do-git.md#hist%C3%B3ria-e-cria%C3%A7%C3%A3o-do-git)
-  - [Como o Git Gerencia Versões](software/git-github/fundamentos/4-gerenciamento-de-versoes.md)
-  - [Instalação do Git](software/git-github/fundamentos/5-instalando-o-git.md)
+  - [O que é Git? Como funciona e por que usar?](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.1-o-que-e-git.md)
+  - [O que é GitHub? Diferença entre Git e GitHub](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.2-o-que-e-github.md)
+  - [História e Criação do Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.3-historia-do-git.md)
+  - [Como o Git Gerencia Versões](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.4-gerenciamento-de-versoes.md)
+  - [Instalação do Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.5-instalando-o-git.md)
+  - [Primeiras Configurações do Git (git config)](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.6-primeiras-configuracoes.md)
+  - [Conceitos Fundamentais do Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/1-fundamentos/1.7-conceitos-fundamentais.md)
 
+- ### Conceitos Fundamentais
+  - [Criando e Clonando Repositórios](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.1-criando-e-clonando.md)
+  - [Adicionando e Confirmando Alterações](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.2-adcionando-alteracoes.md)
+  - [Verificando o Status e Histórico](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.3-verificando-o-status.md)
+  - [Ignorando Arquivos com .gitignore](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.4-ignorando-arquivos.md)
+  - [Visualizando Mudanças no Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.5-vizualizando-mudancas.md)
+  
 ---
 
 Não se esqueça de contribuir e deixar sua opnião sobre o que deve ser melhorado! :fire:
