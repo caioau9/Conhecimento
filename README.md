@@ -1,9 +1,3 @@
-<style>
-  *{
-    background-color: red;
-  }
-</style>
-
 # Conhecimento
 Este repositório é uma Wiki em constante construção, para aprender e revisar conhecimentos importantes.
 
