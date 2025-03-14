@@ -1,7 +1,7 @@
 # Conhecimento
-Este repositório é uma Wiki em construção, para aprender e revisar conhecimentos importantes.
+Este repositório é uma Wiki em constante construção, para aprender e revisar conhecimentos importantes.
 
-Ela é mantida por [@caioau9](https://github.com/caioau9), mas sinta-se livre para sugerir alterações ou dar **feedbacks** sobre como eu deveria melhorar essa Wiki. :rocket:
+Ela é mantida por [@caioau9](https://github.com/caioau9), mas sinta-se livre para sugerir alterações ou dar **feedbacks** sobre ela deveria ser melhorarada. :rocket:
 
 ## Conteúdos 
 Clique nos links para navegar na Wiki
@@ -32,6 +32,73 @@ Clique nos links para navegar na Wiki
   - [Verificando o Status e Histórico](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.3-verificando-o-status.md)
   - [Ignorando Arquivos com .gitignore](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.4-ignorando-arquivos.md)
   - [Visualizando Mudanças no Git](https://github.com/caioau9/Conhecimento/blob/main/software/git-github/2-conceitos-essenciais/2.5-vizualizando-mudancas.md)
+
+- ### Branches e Fluxos de Trabalho
+  - [O que são branches e como funcionam?]()
+  - [Criando, listando e excluindo branches (git branch)]()
+  - [Trocando de branch (git checkout, git switch)]()
+  - [Mesclando branches (git merge)]()
+  - [Resolvendo conflitos de merge (Causas, soluções e boas práticas)]()
+  - [Fluxos de branching populares (Git Flow, GitHub Flow e Trunk-Based Development)]()
+
+- ### GitHub e Repositórios Remotos
+  - [Criando repositórios no GitHub (via web e via terminal)]()
+  - [Conectando o Git ao GitHub (git remote)]()
+  - [Enviando (git push) e recebendo (git pull, git fetch) alterações]()
+  - [Trabalhando com Forks e Pull Requests (Contribuição em projetos)]()
+  - [SSH vs HTTPS: Conectando com segurança ao GitHub]()
+
+- ### Manipulando o Histórico de Commits
+  - [Revertendo alterações (git checkout, git restore)]()
+  - [Desfazendo Commits (git reset, git revert)]()
+  - [Editando, reordenando ou removendo Commits (git rebase interativo)]()
+  - [Aplicando Commits específicos em outras branches (git cherry-pick)]()
+  - [Reparando mensagens de commit (git commit --amend)]()
+
+- ### Gerenciando Mudanças Temporárias (Stashing)
+  - [Salvando mudanças não finalizadas (git stash)]()
+  - [Restaurando mudanças salvas (git stash pop, git stash apply)]()
+  - [Listando e gerenciando stashes (git stash list, git stash drop)]()
+
+- ### Versionamento com Tags
+  - [O que são tags?]()
+  - [Criando e listando tags (git tag)]()
+  - [Tags anotadas vs. tags leves]()
+  - [Enviando tags para repositórios remotos (git push origin --tags)]()
+  - [Removendo tags locais e remotas (git tag -d, git push --delete)]()
+
+- ###  Fluxos de Trabalho Avançados
+  - [Trabalhando com submódulos (git submodule)]()
+  - [Sparse Checkout (Clonando apenas partes de um repositório)]()
+  - [Squash de commits (git rebase --interactive)]()
+  - [Worktrees (Trabalhando com múltiplas branches ao mesmo tempo)]()
+
+- ### Git Internals
+  - [Como o Git armazena dados (Blobs, Trees, Commits e Refs)]()
+  - [Objetos do Git (git cat-file, git hash-object)]()
+  - [Anatomia de um commit]()
+  - [Como o Git lida com branches (.git/refs/heads/)]()
+  - [Como funcionam os índices (git ls-files)]()
+
+- ### Resolvendo Problemas Comuns
+  - [Recuperando arquivos deletados sem querer (git checkout, git restore)]()
+  - [Corrigindo conflitos de merge complexos]()
+  - [Recuperando commits perdidos (git reflog)]()
+  - [Entendendo e usando o git fsck para verificação de integridade]()
+  - [Consertando branches corrompidas]()
+
+- ### Boas Práticas e Convenções do Git
+  - [Como escrever boas mensagens de commit (Conventional Commits)]()
+  - [Boas práticas em branches e merges]()
+  - [Estratégias de resolução de conflitos em equipe]()
+  - [Protegendo branches principais (branch protection rules)]()
+  - [Estratégias de commit (Commits pequenos vs. Commits grandes)]()
+
+- ### Integração e Automação 
+  - [Integração contínua (CI)]()
+  - [GitHub Actions]()
+  - [Webhooks]()
+  - [Ferramentas de automação]()
   
 ---
 
