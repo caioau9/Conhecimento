@@ -1,9 +1,7 @@
 # Conhecimento
 Este repositório é uma Wiki em constante construção, para aprender e revisar conhecimentos importantes.
 
-Ela é mantida por [@caioau9](https://github.com/caioau9), mas sinta-se livre para sugerir alterações ou dar **feedbacks** sobre ela deveria ser melhorarada. :rocket:
-
-Acesse a Wiki aqui: [Conhecimento - Wiki](https://github.com/caioau9/Conhecimento/wiki)
+Ele é mantida por [@caioau9](https://github.com/caioau9), mas sinta-se livre para sugerir alterações ou dar **feedbacks** sobre ela deveria ser melhorarada. :rocket:
 
 ## Conteúdos 
 Clique nos links para navegar na Wiki
