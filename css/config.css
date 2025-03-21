@@ -1,0 +1,8 @@
+/* Trocar a cor de marcar o texto por todo o documento */
+
+*::selection{
+    background: #00e0ff50;
+}
+*::-moz-selection{
+    background: #00e0ff50;
+}
